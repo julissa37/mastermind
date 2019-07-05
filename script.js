@@ -76,7 +76,7 @@ function checkGuess() {
 
   if (guess1 == answer[1]) {
     correctNumber++;
-  } else if (answer.indexOf(guess1) > 0) {
+  } else if (answer.indexOf(guess1) >= 0) {
     presentNumber++;
   } else {
     wrongNumber++;
@@ -84,7 +84,7 @@ function checkGuess() {
 
   if (guess2 == answer[2]) {
     correctNumber++;
-  } else if (answer.indexOf(guess2) > 0) {
+  } else if (answer.indexOf(guess2) >= 0) {
     presentNumber++;
   } else {
     wrongNumber++;
@@ -92,7 +92,7 @@ function checkGuess() {
 
   if (guess3 == answer[3]) {
     correctNumber++;
-  } else if (answer.indexOf(guess3) > 0) {
+  } else if (answer.indexOf(guess3) >= 0) {
     presentNumber++;
   } else {
     wrongNumber++;
